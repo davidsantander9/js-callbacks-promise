@@ -1,4 +1,4 @@
-import { obtenerHeroesArr } from './js/await';
+import { heroeCiclo, obtenerHereoAwait, obtenerHeroesArr } from './js/await';
 // import { buscarHeroe, buscarHeroeAsync, fastPromise, regularPromise, slowPromise } from './js/promise';
 
 import './styles.css';
@@ -21,6 +21,14 @@ import './styles.css';
 //     .then( console.log )
 //     .catch( console.warn );
 
-obtenerHeroesArr()
-    .then(console.table)
+// obtenerHeroesArr()
+//     .then(console.table)
 
+// obtenerHereoAwait('iron2')
+//     .then( heroe => {
+//         console.log( heroe )
+        
+//     } )
+//     .catch( console.warn )
+
+ heroeCiclo();
